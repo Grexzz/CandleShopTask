@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+
+.intro-image {
+    height: 95vh;
+    background-image: linear-gradient(to bottom right, #ffffff2a, #00000036) , url('../images/Candle1.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -15%);
+    overflow: hidden;
+}
+
+.intro-image__text a {
+    color: rgb(255, 145, 0);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    background-color: rgba(248, 144, 59, 0.158);
+}
+
+.intro-image__text a:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+}
+    
+.intro-text__textbox {
+    background-color: orange;
+    height: 250px;
+    margin-top: -5rem;
+    padding-top: 5rem;
+    clip-path: polygon(50% 26%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.heading-solid-beige {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, #ffffff2a, #00000036) , url('../images/FragileBox.webp');
+    background-size: cover;
+    background-position: bottom;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    color: black;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    background-color: rgba(85, 47, 16, 0.623);
+}
+
+.packaging-image__text a:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+}
+
+.packaging-text {
+    background-color: rgb(255, 145, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 35rem;
+    clip-path: polygon(0 0, 100% 0, 90% 49%, 100% 100%, 0 100%, 9% 49%);
+}
+
+.heading-solid-green {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, #ffffff2a, #00000036) , url('../images/WomanMakingCandles.jpeg');
+    background-size: cover;
+    background-position: top;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    color: black;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    background-color: rgba(121, 153, 155, 0.623);
+}
+
+.tutorials-image__text a:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: rgba(102, 186, 192, 0.801);;
+    color: rgb(0, 25, 252);
+    font-size: 2rem;
+    height: 200px;
+    padding: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(0, 25, 252);
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: rgb(0, 252, 168);
+    transform: scale(1.2);
+}
